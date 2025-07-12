@@ -5,7 +5,7 @@ def rgb2hex(r,g,b):
 
 size = 32, 15
 
-image = Image.open("loka.jpg")
+image = Image.open("loka.jpg") #change path to image, cannot be a png
 
 image = image.resize(size)
 pixel_values = list(image.getdata())
@@ -22,8 +22,5 @@ for i in range(0, len(pixel_values)):
 loreLine = str(loreLine).replace(" ", '')
 print(loreLine)
 
-with open("Output.txt", "w", encoding="utf-8") as text_file:
+with open("Output.txt", "w", encoding="utf-8") as text_file: #outputs the Loreline in Output.exe
     text_file.write(loreLine)
-
-# ████████████████████████████████ 32x14
-
