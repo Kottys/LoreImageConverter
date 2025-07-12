@@ -9,7 +9,6 @@ image = Image.open("image.jpg") #change path to image, cannot be a png
 
 image = image.resize(size)
 pixel_values = list(image.getdata())
-print(pixel_values)
 
 loreLine = ""
 
