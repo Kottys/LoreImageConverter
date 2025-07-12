@@ -21,5 +21,5 @@ for i in range(0, len(pixel_values)):
 loreLine = str(loreLine).replace(" ", '')
 print(loreLine)
 
-with open("Output.txt", "w", encoding="utf-8") as text_file: #outputs the Loreline in Output.exe
+with open("output.txt", "w", encoding="utf-8") as text_file: #outputs the Loreline in Output.exe 
     text_file.write(loreLine)
