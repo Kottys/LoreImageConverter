@@ -5,7 +5,7 @@ def rgb2hex(r,g,b):
 
 size = 32, 15
 
-image = Image.open("loka.jpg") #change path to image, cannot be a png
+image = Image.open("image.jpg") #change path to image, cannot be a png
 
 image = image.resize(size)
 pixel_values = list(image.getdata())
