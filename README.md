@@ -1,4 +1,4 @@
-# LoreImageConverter
+# lore_image_converter
 Makes an image into a pasteable lore line to use on your lore.
 
 1. Put the path of your image in: image = Image.open("your file path"), I would advise to have a image with a similar aspect ratio of 32x15
